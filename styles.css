@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    border:0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fefcf7;
+}
+
+.page-head{
+    padding: 24px;
+    height: 0px;
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-title{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.menu-pages{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-pages-item{
+   padding-right: 30px; 
+}
+
+.menu-pages-item-link{
+    text-decoration: none;
+    color: black;
+    padding: 6px 10px 6px 10px;
+    border-radius: 4px;
+}
+
+.menu-pages-item-link:hover{
+    background-color: #eaa7ae;
+}
+
+.banner{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-image:
+        linear-gradient(to bottom, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(main-banner.jpg);
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-title{
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    color: darkgray;
+    text-align: center;
+}
+
+.main-ads{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 150px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+
+.main-ads-img{
+    height: 400px;
+    opacity: .95
+}
+
+.main-ads-item{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+
+.main-ads-item-title{
+    font-style: italic;
+    margin: 8px 0px 10px 0px;
+}
+
+.main-ads-item-text{
+    font-size: 18px;
+    margin: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.main-ads-item-link{
+    text-decoration: none;
+    color: dimgray;
+    padding: 8px;
+    border: 2px solid;
+}
+
+.main-ads-item-link:hover{
+    background-color: #eaa7ae;
+}
