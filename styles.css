@@ -6,8 +6,6 @@ body{
 }
 
 .page-head{
-    padding: 24px;
-    height: 0px;
     display: flex;
 }
 
@@ -45,6 +43,7 @@ body{
 .menu-pages-item{
     padding-right: 30px; 
     list-style: none;
+    font-size: 1em;
 }
 
 .menu-pages-item-link{
@@ -120,12 +119,13 @@ body{
 }
 
 .main-ads-item-text{
-    font-size: 18px;
+    font-size: 1em;
     margin: 0;
     padding: 0px 0px 20px 0px;
 }
 
 .main-ads-item-link{
+    font-size: 1em;
     text-decoration: none;
     color: dimgray;
     padding: 8px;
@@ -200,4 +200,21 @@ body{
 .footer-media-logo-item{
     height: 50px;
     padding: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 760px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-pages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    }
+    .menu-pages-item {
+    padding: 0px 5px 0px 5px; 
+    list-style: none;
+    font-size: 1em;
+    }
 }
