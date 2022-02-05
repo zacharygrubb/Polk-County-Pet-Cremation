@@ -90,6 +90,19 @@ body{
     justify-content: flex-end;
 }
 
+.urns-banner{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-image:
+        linear-gradient(to bottom, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urns-banner.jpg);
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .banner-title{
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -108,6 +121,127 @@ body{
     margin: 0px;
     padding: 150px 0px 0px 0px;
     flex-wrap: wrap;
+}
+
+.urn-options{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 100px 0px 0px 0px;
+}
+
+.urn-options-item{
+    height: 400px;
+    justify-self: center;
+}
+
+.urn-options-item-link-1{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)80%,rgba(254,252,247, 1)),
+        url(../assets/urn-1.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-1:hover{
+    opacity: 0.6;
+}
+
+.urn-options-item-link-2{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urn-2.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-2:hover{
+    opacity: 0.6;
+}
+
+.urn-options-item-link-3{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urn-3.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-3:hover{
+    opacity: 0.6;
+}
+
+.urn-options-item-link-4{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urn-4.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-4:hover{
+    opacity: 0.6;
+}
+
+.urn-options-item-link-5{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urn-5.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-5:hover{
+    opacity: 0.6;
+}
+
+.urn-options-item-link-6{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding: 0px 150px 300px 150px;;
+    background-image:
+        linear-gradient(to top, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/urn-6.png);
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+    transition-duration: .5s;
+}
+
+.urn-options-item-link-6:hover{
+    opacity: 0.6;
 }
 
 .main-ads-img{
@@ -214,6 +348,20 @@ body{
 }
 
 /* Media queries */
+
+@media screen and (max-width: 1184px) {
+    .urn-options {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .urn-options {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
 
 @media screen and (max-width: 760px) {
     .menu {
