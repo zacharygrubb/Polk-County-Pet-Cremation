@@ -103,6 +103,20 @@ body{
     justify-content: flex-end;
 }
 
+.connect-banner{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-image:
+        linear-gradient(to bottom, rgba(254,252,247, 0)70%,rgba(254,252,247, 1)),
+        url(../assets/connect-banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .banner-title{
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -121,6 +135,46 @@ body{
     margin: 0px;
     padding: 150px 0px 0px 0px;
     flex-wrap: wrap;
+}
+
+.connect-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 30px;
+    padding: 100px 0px 50px 0px;
+}
+
+.connect-form-name, .connect-form-email, .connect-form-message{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-form-message{
+    width: 400px;
+    height: 100px;
+}
+
+.label{
+    padding-bottom: 10px
+}
+
+.name-input, .email-input, .message-input{
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1em;
+    background: #e8e8e8;
+}
+
+.message-input{
+    height: 100%;
+    border: 2px solid;
+}
+
+.submit{
+    padding: 5px 15px;
+    font-size: 1.05em;
+    border-radius: 8px;
 }
 
 .urn-options{
