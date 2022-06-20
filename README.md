@@ -6,7 +6,7 @@ This project is a website for a hypothetical pet cremation service using only ht
 
 It contains links, responds to different screen sizes, and contains a basic form
 
-link - https://zacharygrubb.github.io/bootcamp-project-1/
+link - https://zacharygrubb.github.io/Polk-County-Pet-Cremation/
 
 
 USER STORIES
